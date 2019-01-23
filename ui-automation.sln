@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA1A885D-19C3-41C4-887A-6FEF14974207}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A1E093E7-7CCF-4C82-8DF5-EF9A34488544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWinFormsApp", "src\DemoWinFormsApp\DemoWinFormsApp.csproj", "{EDFAC8EB-079E-4265-83FF-00B7BC404790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWpfApp", "src\DemoWpfApp\DemoWpfApp.csproj", "{4AF3E626-B099-4EF6-9727-7EBC4DABB6C3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDFAC8EB-079E-4265-83FF-00B7BC404790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFAC8EB-079E-4265-83FF-00B7BC404790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFAC8EB-079E-4265-83FF-00B7BC404790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFAC8EB-079E-4265-83FF-00B7BC404790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF3E626-B099-4EF6-9727-7EBC4DABB6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF3E626-B099-4EF6-9727-7EBC4DABB6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF3E626-B099-4EF6-9727-7EBC4DABB6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF3E626-B099-4EF6-9727-7EBC4DABB6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDFAC8EB-079E-4265-83FF-00B7BC404790} = {BA1A885D-19C3-41C4-887A-6FEF14974207}
+		{4AF3E626-B099-4EF6-9727-7EBC4DABB6C3} = {BA1A885D-19C3-41C4-887A-6FEF14974207}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE845255-4C2A-477C-BE4F-469F801DD1FF}
