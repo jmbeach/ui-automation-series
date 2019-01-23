@@ -15,6 +15,13 @@ namespace DemoWinFormsApp
         public Form1()
         {
             InitializeComponent();
+            Resize += Form1_Resize;
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            PanelTop.Width = Width;
+            PanelBottom.Width = Width;
         }
     }
 }

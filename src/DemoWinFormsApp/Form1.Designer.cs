@@ -65,6 +65,7 @@
             // 
             // ButtonSetHeader
             // 
+            this.ButtonSetHeader.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtonSetHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonSetHeader.Location = new System.Drawing.Point(142, 49);
             this.ButtonSetHeader.Name = "ButtonSetHeader";
@@ -77,6 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(384, 281);
             this.Controls.Add(this.PanelTop);
             this.Controls.Add(this.PanelBottom);
