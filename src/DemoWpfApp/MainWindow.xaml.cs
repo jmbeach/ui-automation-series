@@ -24,5 +24,10 @@ namespace DemoWpfApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TextBlockName.Text = TextBoxName.Text;
+        }
     }
 }
