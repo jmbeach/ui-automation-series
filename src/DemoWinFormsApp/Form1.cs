@@ -20,8 +20,15 @@ namespace DemoWinFormsApp
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            PanelTop.Width = Width;
             PanelBottom.Width = Width;
+            PanelMiddle.Width = Width;
+            PanelTop.Width = Width;
+        }
+
+        private void ButtonSetHeader_Click(object sender, EventArgs e)
+        {
+            LabelName.Text = TextBoxName.Text;
+            flowLayoutPanel1.Location = new Point((Width / 2) - (flowLayoutPanel1.Width / 2), flowLayoutPanel1.Location.Y);
         }
     }
 }
